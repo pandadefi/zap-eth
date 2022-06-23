@@ -1,0 +1,13 @@
+name: zap_eth
+plugins:
+  - name: hardhat
+  - name: vyper
+  - name: infura
+  - name: etherscan
+
+ethereum:
+  default_network: mainnet-fork
+  mainnet:
+    default_provider: infura
+  mainnet_fork:
+    default_provider: hardhat
